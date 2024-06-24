@@ -1,0 +1,21 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    gap: 60px;
+}
+
+.card__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.more__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+}

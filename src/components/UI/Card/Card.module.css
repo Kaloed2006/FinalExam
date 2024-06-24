@@ -1,0 +1,32 @@
+.card {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+    gap: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__content {
+    gap: 40px;
+    display: flex;
+}
+
+.card__block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card__info_block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
